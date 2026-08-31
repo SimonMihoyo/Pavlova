@@ -114,4 +114,4 @@ pavlova/
 
 ## License
 
-MIT
+GPL v3
