@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# CMake build
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# JetBrains (CLion / IntelliJ)
+.idea/
+
+# Binary output
+agentapp
+
+# Test artifacts
+__pycache__/

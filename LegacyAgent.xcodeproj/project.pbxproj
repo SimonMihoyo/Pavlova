@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3CB64F730393A7400E780A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3CB64F630393A7400E780A5 /* main.cpp */; };
+		E3CB65033039474500E780A5 /* WebFetchTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3CB65013039474500E780A5 /* WebFetchTool.cpp */; };
+		E3CB65063039482D00E780A5 /* ShellTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3CB65053039482D00E780A5 /* ShellTool.cpp */; };
+		E3CB6509303948C700E780A5 /* FileTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3CB6508303948C700E780A5 /* FileTool.cpp */; };
+		E3CB651030393A7400E780A5 /* JSONValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3CB650F30393A7400E780A5 /* JSONValue.cpp */; };
+		E3CB651230393A7400E780A5 /* LLMClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3CB651130393A7400E780A5 /* LLMClient.cpp */; };
+		E3CB651430393A7400E780A5 /* AgentEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3CB651330393A7400E780A5 /* AgentEngine.cpp */; };
+		E3CB651930393A7400E780A5 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CB651A30393A7400E780A5 /* CoreFoundation.framework */; };
+		E3CB651C30393A7400E780A5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CB651B30393A7400E780A5 /* CFNetwork.framework */; };
+		E3CB651E30393A7400E780A5 /* SessionStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3CB651D30393A7400E780A5 /* SessionStore.cpp */; };
+		E3CB652130393A7400E780A5 /* TuiApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3CB652030393A7400E780A5 /* TuiApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E3CB64F130393A7400E780A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E3CB64F330393A7400E780A5 /* LegacyAgent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LegacyAgent; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CB64F630393A7400E780A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E3CB64FE3039459600E780A5 /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		E3CB64FF3039460000E780A5 /* JSONValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONValue.h; sourceTree = "<group>"; };
+		E3CB6500303946E000E780A5 /* ToolDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolDefinition.h; sourceTree = "<group>"; };
+		E3CB65013039474500E780A5 /* WebFetchTool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WebFetchTool.cpp; sourceTree = "<group>"; };
+		E3CB65023039474500E780A5 /* WebFetchTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebFetchTool.h; sourceTree = "<group>"; };
+		E3CB65043039480A00E780A5 /* ShellTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellTool.h; sourceTree = "<group>"; };
+		E3CB65053039482D00E780A5 /* ShellTool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShellTool.cpp; sourceTree = "<group>"; };
+		E3CB65073039489C00E780A5 /* FileTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileTool.h; sourceTree = "<group>"; };
+		E3CB6508303948C700E780A5 /* FileTool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileTool.cpp; sourceTree = "<group>"; };
+		E3CB650F30393A7400E780A5 /* JSONValue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JSONValue.cpp; sourceTree = "<group>"; };
+		E3CB651130393A7400E780A5 /* LLMClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LLMClient.cpp; sourceTree = "<group>"; };
+		E3CB651330393A7400E780A5 /* AgentEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AgentEngine.cpp; sourceTree = "<group>"; };
+		E3CB651630393A7400E780A5 /* ChatMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatMessage.h; sourceTree = "<group>"; };
+		E3CB651730393A7400E780A5 /* LLMClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLMClient.h; sourceTree = "<group>"; };
+		E3CB651830393A7400E780A5 /* AgentEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgentEngine.h; sourceTree = "<group>"; };
+		E3CB651A30393A7400E780A5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		E3CB651B30393A7400E780A5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E3CB651D30393A7400E780A5 /* SessionStore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SessionStore.cpp; sourceTree = "<group>"; };
+		E3CB651F30393A7400E780A5 /* SessionStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionStore.h; sourceTree = "<group>"; };
+		E3CB652030393A7400E780A5 /* TuiApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TuiApp.cpp; sourceTree = "<group>"; };
+		E3CB652230393A7400E780A5 /* TuiApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TuiApp.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3CB64F030393A7400E780A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CB651930393A7400E780A5 /* CoreFoundation.framework in Frameworks */,
+				E3CB651C30393A7400E780A5 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3CB64EA30393A7400E780A5 = {
+			isa = PBXGroup;
+			children = (
+				E3CB64F530393A7400E780A5 /* LegacyAgent */,
+				E3CB64F430393A7400E780A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3CB64F430393A7400E780A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3CB64F330393A7400E780A5 /* LegacyAgent */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3CB64F530393A7400E780A5 /* LegacyAgent */ = {
+			isa = PBXGroup;
+			children = (
+				E3CB64FD3039454700E780A5 /* headers */,
+				E3CB64F630393A7400E780A5 /* main.cpp */,
+				E3CB65013039474500E780A5 /* WebFetchTool.cpp */,
+				E3CB65053039482D00E780A5 /* ShellTool.cpp */,
+				E3CB6508303948C700E780A5 /* FileTool.cpp */,
+				E3CB650F30393A7400E780A5 /* JSONValue.cpp */,
+				E3CB651130393A7400E780A5 /* LLMClient.cpp */,
+				E3CB651330393A7400E780A5 /* AgentEngine.cpp */,
+				E3CB651D30393A7400E780A5 /* SessionStore.cpp */,
+				E3CB652030393A7400E780A5 /* TuiApp.cpp */,
+			);
+			path = LegacyAgent;
+			sourceTree = "<group>";
+		};
+		E3CB64FD3039454700E780A5 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				E3CB65023039474500E780A5 /* WebFetchTool.h */,
+				E3CB64FE3039459600E780A5 /* Tool.h */,
+				E3CB64FF3039460000E780A5 /* JSONValue.h */,
+				E3CB6500303946E000E780A5 /* ToolDefinition.h */,
+				E3CB65043039480A00E780A5 /* ShellTool.h */,
+				E3CB65073039489C00E780A5 /* FileTool.h */,
+				E3CB651630393A7400E780A5 /* ChatMessage.h */,
+				E3CB651730393A7400E780A5 /* LLMClient.h */,
+				E3CB651830393A7400E780A5 /* AgentEngine.h */,
+				E3CB651F30393A7400E780A5 /* SessionStore.h */,
+				E3CB652230393A7400E780A5 /* TuiApp.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3CB64F230393A7400E780A5 /* LegacyAgent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CB64FA30393A7400E780A5 /* Build configuration list for PBXNativeTarget "LegacyAgent" */;
+			buildPhases = (
+				E3CB64EF30393A7400E780A5 /* Sources */,
+				E3CB64F030393A7400E780A5 /* Frameworks */,
+				E3CB64F130393A7400E780A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LegacyAgent;
+			productName = LegacyAgent;
+			productReference = E3CB64F330393A7400E780A5 /* LegacyAgent */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3CB64EB30393A7400E780A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SimonMihoyo;
+				TargetAttributes = {
+					E3CB64F230393A7400E780A5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E3CB64EE30393A7400E780A5 /* Build configuration list for PBXProject "LegacyAgent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3CB64EA30393A7400E780A5;
+			productRefGroup = E3CB64F430393A7400E780A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3CB64F230393A7400E780A5 /* LegacyAgent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3CB64EF30393A7400E780A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CB65063039482D00E780A5 /* ShellTool.cpp in Sources */,
+				E3CB64F730393A7400E780A5 /* main.cpp in Sources */,
+				E3CB65033039474500E780A5 /* WebFetchTool.cpp in Sources */,
+				E3CB6509303948C700E780A5 /* FileTool.cpp in Sources */,
+				E3CB651030393A7400E780A5 /* JSONValue.cpp in Sources */,
+				E3CB651230393A7400E780A5 /* LLMClient.cpp in Sources */,
+				E3CB651430393A7400E780A5 /* AgentEngine.cpp in Sources */,
+				E3CB651E30393A7400E780A5 /* SessionStore.cpp in Sources */,
+				E3CB652130393A7400E780A5 /* TuiApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E3CB64F830393A7400E780A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E3CB64F930393A7400E780A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E3CB64FB30393A7400E780A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UWMB23RHB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				OTHER_LDFLAGS = "-lncurses";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kirara.legacyagent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E3CB64FC30393A7400E780A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UWMB23RHB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				OTHER_LDFLAGS = "-lncurses";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kirara.legacyagent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3CB64EE30393A7400E780A5 /* Build configuration list for PBXProject "LegacyAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CB64F830393A7400E780A5 /* Debug */,
+				E3CB64F930393A7400E780A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CB64FA30393A7400E780A5 /* Build configuration list for PBXNativeTarget "LegacyAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CB64FB30393A7400E780A5 /* Debug */,
+				E3CB64FC30393A7400E780A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3CB64EB30393A7400E780A5 /* Project object */;
+}
