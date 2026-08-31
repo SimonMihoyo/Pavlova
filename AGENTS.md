@@ -1,4 +1,4 @@
-# LegacyAgent
+# pavlova
 
 macOS 终端 AI Agent，C++17 编写。支持 TUI（ncurses 全屏）和行模式交互。
 
@@ -41,7 +41,7 @@ make -j
 ## 架构
 
 ```
-LegacyAgent/
+pavlova/
 ├── main.cpp              入口，CLI 解析，TUI/行模式接线
 ├── AgentEngine.cpp       Agent 循环：LLM 调用 → 工具执行 → 迭代
 ├── LLMClient.cpp         HTTP 客户端（CFNetwork），SSE 流式解析，自动重试

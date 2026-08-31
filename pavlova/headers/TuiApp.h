@@ -1,6 +1,6 @@
 //
 //  TuiApp.h
-//  LegacyAgent
+//  pavlova
 //
 //  Created by SimonMihoyo on 2026/8/22.
 //

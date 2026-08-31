@@ -4,25 +4,25 @@ if(APPLE)
     set(CMAKE_OSX_DEPLOYMENT_TARGET "10.14" CACHE STRING "macOS deployment target")
 endif()
 
-project(LegacyAgent CXX)
+project(pavlova CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS ON)
 
 add_executable(agentapp
-    LegacyAgent/main.cpp
-    LegacyAgent/ShellTool.cpp
-    LegacyAgent/FileTool.cpp
-    LegacyAgent/WebFetchTool.cpp
-    LegacyAgent/JSONValue.cpp
-    LegacyAgent/LLMClient.cpp
-    LegacyAgent/AgentEngine.cpp
-    LegacyAgent/SessionStore.cpp
-    LegacyAgent/TuiApp.cpp
+    pavlova/main.cpp
+    pavlova/ShellTool.cpp
+    pavlova/FileTool.cpp
+    pavlova/WebFetchTool.cpp
+    pavlova/JSONValue.cpp
+    pavlova/LLMClient.cpp
+    pavlova/AgentEngine.cpp
+    pavlova/SessionStore.cpp
+    pavlova/TuiApp.cpp
 )
 
-target_include_directories(agentapp PRIVATE LegacyAgent/headers)
+target_include_directories(agentapp PRIVATE pavlova/headers)
 
 if(APPLE)
     find_library(COREFOUNDATION_LIB CoreFoundation)

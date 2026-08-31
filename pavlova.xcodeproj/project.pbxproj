@@ -33,7 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E3CB64F330393A7400E780A5 /* LegacyAgent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LegacyAgent; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CB64F330393A7400E780A5 /* pavlova */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pavlova; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CB64F630393A7400E780A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E3CB64FE3039459600E780A5 /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
 		E3CB64FF3039460000E780A5 /* JSONValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONValue.h; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		E3CB64EA30393A7400E780A5 = {
 			isa = PBXGroup;
 			children = (
-				E3CB64F530393A7400E780A5 /* LegacyAgent */,
+				E3CB64F530393A7400E780A5 /* pavlova */,
 				E3CB64F430393A7400E780A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,12 +82,12 @@
 		E3CB64F430393A7400E780A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3CB64F330393A7400E780A5 /* LegacyAgent */,
+				E3CB64F330393A7400E780A5 /* pavlova */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E3CB64F530393A7400E780A5 /* LegacyAgent */ = {
+		E3CB64F530393A7400E780A5 /* pavlova */ = {
 			isa = PBXGroup;
 			children = (
 				E3CB64FD3039454700E780A5 /* headers */,
@@ -101,7 +101,7 @@
 				E3CB651D30393A7400E780A5 /* SessionStore.cpp */,
 				E3CB652030393A7400E780A5 /* TuiApp.cpp */,
 			);
-			path = LegacyAgent;
+			path = pavlova;
 			sourceTree = "<group>";
 		};
 		E3CB64FD3039454700E780A5 /* headers */ = {
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E3CB64F230393A7400E780A5 /* LegacyAgent */ = {
+		E3CB64F230393A7400E780A5 /* pavlova */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3CB64FA30393A7400E780A5 /* Build configuration list for PBXNativeTarget "LegacyAgent" */;
+			buildConfigurationList = E3CB64FA30393A7400E780A5 /* Build configuration list for PBXNativeTarget "pavlova" */;
 			buildPhases = (
 				E3CB64EF30393A7400E780A5 /* Sources */,
 				E3CB64F030393A7400E780A5 /* Frameworks */,
@@ -137,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = LegacyAgent;
-			productName = LegacyAgent;
-			productReference = E3CB64F330393A7400E780A5 /* LegacyAgent */;
+			name = pavlova;
+			productName = pavlova;
+			productReference = E3CB64F330393A7400E780A5 /* pavlova */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E3CB64EE30393A7400E780A5 /* Build configuration list for PBXProject "LegacyAgent" */;
+			buildConfigurationList = E3CB64EE30393A7400E780A5 /* Build configuration list for PBXProject "pavlova" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3CB64F230393A7400E780A5 /* LegacyAgent */,
+				E3CB64F230393A7400E780A5 /* pavlova */,
 			);
 		};
 /* End PBXProject section */
@@ -311,7 +311,7 @@
 				DEVELOPMENT_TEAM = 4UWMB23RHB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				OTHER_LDFLAGS = "-lncurses";
-				PRODUCT_BUNDLE_IDENTIFIER = me.kirara.legacyagent;
+				PRODUCT_BUNDLE_IDENTIFIER = me.kirara.pavlova;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -324,7 +324,7 @@
 				DEVELOPMENT_TEAM = 4UWMB23RHB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				OTHER_LDFLAGS = "-lncurses";
-				PRODUCT_BUNDLE_IDENTIFIER = me.kirara.legacyagent;
+				PRODUCT_BUNDLE_IDENTIFIER = me.kirara.pavlova;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -332,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E3CB64EE30393A7400E780A5 /* Build configuration list for PBXProject "LegacyAgent" */ = {
+		E3CB64EE30393A7400E780A5 /* Build configuration list for PBXProject "pavlova" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3CB64F830393A7400E780A5 /* Debug */,
@@ -341,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3CB64FA30393A7400E780A5 /* Build configuration list for PBXNativeTarget "LegacyAgent" */ = {
+		E3CB64FA30393A7400E780A5 /* Build configuration list for PBXNativeTarget "pavlova" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3CB64FB30393A7400E780A5 /* Debug */,
