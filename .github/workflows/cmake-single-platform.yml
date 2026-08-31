@@ -1,0 +1,33 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build_macos:
+    runs-on: macos‑13
+    steps:
+      - uses: actions/checkout@v4
+    
+      - name: Select Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: '14.2'
+
+      - name: Show compiler versions
+        run: |
+          clang --version
+          gcc --version
+          sw_vers
+
+      - name: Build with clang (target macOS 10.14)
+        env:
+          MACOSX_DEPLOYMENT_TARGET: "10.14"
+        run: |
+          mkdir build
+          cd build
+          cmake .. -DCMAKE_OSX_DEPLOYMENT_TARGET=10.14
+          make -j$(sysctl -n hw.ncpu)
